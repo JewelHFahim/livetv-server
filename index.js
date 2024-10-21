@@ -5,6 +5,7 @@ const mongoDB = require("./connection");
 const cookieParser = require("cookie-parser");
 const {
   checkForAuthenticationCookie,
+  restricToUser,
 } = require("./middlewares/authentication");
 
 const userRouter = require("./routes/user");
@@ -14,10 +15,10 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 // Mongodb Connections
-// mongoDB("mongodb://127.0.0.1:27017/live-tv")
-mongoDB(
-  `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.d0tal.mongodb.net/live-tv?retryWrites=true&w=majority&appName=Cluster0`
-)
+mongoDB("mongodb://127.0.0.1:27017/live-tv")
+// mongoDB(
+//   `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.d0tal.mongodb.net/live-tv?retryWrites=true&w=majority&appName=Cluster0`
+// )
   .then(() => {
     console.log("MongoDB Connected");
   })
@@ -44,8 +45,8 @@ app.get("/api", (req, res) => {
 });
 
 // routes
-app.use("/user", userRouter);
-app.use("/api/category", categoryRouter);
+app.use("/admin", userRouter);
+app.use("/api/admin/category", restricToUser(['editor', 'admin']), categoryRouter);
 
 app.listen(PORT, () => {
   console.log("Server Running on PORT:", PORT);

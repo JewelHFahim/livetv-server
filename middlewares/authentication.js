@@ -18,4 +18,14 @@ function checkForAuthenticationCookie(tokenName) {
   };
 }
 
-module.exports = { checkForAuthenticationCookie };
+function restricToUser(roles) {
+  return function (req, res, next) {
+    if (!req.user) return res.json({status: "login required"});
+
+    if (!roles.includes(req.user.role)) return res.end("Unauthorized");
+
+    return next();
+  };
+}
+
+module.exports = { checkForAuthenticationCookie, restricToUser };

@@ -4,7 +4,10 @@ const {
   handleGetAllUser,
   handleLoginUser,
   handleLogoutUser,
+  handleUpdateUser,
+  handleGetSingleUser,
 } = require("../controllers/user");
+const { restricToUser } = require("../middlewares/authentication");
 const router = express.Router();
 
 router.get("/login", (req, res) => {
@@ -14,6 +17,8 @@ router.get("/login", (req, res) => {
 router.post("/signup", handleSignupNewUser);
 router.post("/login", handleLoginUser);
 router.get("/logout", handleLogoutUser);
-router.get("/", handleGetAllUser);
+router.get("/", restricToUser(["admin"]), handleGetAllUser);
+router.patch("/:id", restricToUser(["admin"]), handleUpdateUser);
+router.get("/:id", restricToUser(["admin"]), handleGetSingleUser);
 
 module.exports = router;
