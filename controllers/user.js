@@ -43,6 +43,7 @@ async function handleLoginUser(req, res) {
       .json({ status: "login success" });
   } catch (error) {
     console.log("Error:", error);
+    return res.status(400).json({ error: "Invalid email or password" });
   }
 }
 
