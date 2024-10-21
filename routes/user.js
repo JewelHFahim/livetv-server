@@ -10,9 +10,9 @@ const {
 const { restricToUser } = require("../middlewares/authentication");
 const router = express.Router();
 
-router.get("/login", (req, res) => {
-  return res.render("login");
-});
+// router.get("/login", (req, res) => {
+//   return res.render("login");
+// });
 
 router.post("/signup", handleSignupNewUser);
 router.post("/login", handleLoginUser);

@@ -45,7 +45,7 @@ app.get("/api", (req, res) => {
 });
 
 // routes
-app.use("/admin", userRouter);
+app.use("/api/admin", userRouter);
 app.use("/api/admin/category", restricToUser(['editor', 'admin']), categoryRouter);
 
 app.listen(PORT, () => {
