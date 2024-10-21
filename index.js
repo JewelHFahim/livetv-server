@@ -35,6 +35,10 @@ app.use(checkForAuthenticationCookie("token"));
 app.set("view engine", "ejs");
 app.set("views", path.resolve("./views"));
 
+app.get("/", (req, res) => {
+  return res.send({ status: "Server Running Successfully!" });
+});
+
 app.get("/api", (req, res) => {
   return res.send({ status: "Welcome Live Tv Server" });
 });
