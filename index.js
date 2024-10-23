@@ -27,7 +27,7 @@ const PORT = process.env.PORT || 8000;
 app.use(
   cors({
     // origin: "http://localhost:3000",
-    origin: "https://livetv-server-git-main-jewelhfahims-projects.vercel.app",
+    origin: "https://live-tv-app.netlify.app/login",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
