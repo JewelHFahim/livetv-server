@@ -26,7 +26,8 @@ const PORT = process.env.PORT || 8000;
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    // origin: "http://localhost:3000",
+    origin: "https://livetv-server-git-main-jewelhfahims-projects.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
