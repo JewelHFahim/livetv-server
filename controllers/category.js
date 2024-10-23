@@ -132,20 +132,15 @@ const handleDeleteCategory = async (req, res) => {
 
 // Update Category
 async function handleUpdateCategory(req, res) {
-  
   const { catName } = req.body;
-  const { id } = req.params;
-
-  console.log(catName, id)
+  const {id} = req.params;
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
     return res.status(400).send({ status: "failed", message: "Invalid ID format" });
   }
 
   try {
-    await Category.findByIdAndUpdate(id, {
-      catName,
-    });
+    await Category.findByIdAndUpdate(id, {catName});
 
     return res.status(201).json({ status:"success", message:"update success" });
   } catch (error) {

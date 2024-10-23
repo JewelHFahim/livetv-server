@@ -11,13 +11,13 @@ const {
 } = require("../controllers/category");
 const router = express.Router();
 
-router.get("/", handleGetAllCategories);
 router.get("/trash-list", handleGetAllTrashCategories);
-router.post("/", handleCreateNewCategory);
 router.put("/trash-list/:id", handleRestoreCategory);
 router.delete("/trash-list/:id", handleDeleteCategory);
+router.put("/edit/:id", handleUpdateCategory);
+router.get("/", handleGetAllCategories);
+router.post("/", handleCreateNewCategory);
 router.get("/:id", handleGetSingleCategory);
-router.patch("/:id", handleUpdateCategory);
 router.put("/:id", handleSoftDeleteCategory);
 
 module.exports = router;

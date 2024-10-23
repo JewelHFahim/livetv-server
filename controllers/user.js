@@ -3,19 +3,35 @@ const User = require("../models/user");
 
 // Create User
 async function handleSignupNewUser(req, res) {
-  const { fullName, email, role, password } = req.body;
+  const { fullName, email, password } = req.body;
 
   try {
-    if (!fullName || !email || !role || !password)
-      return res.status(400).json({ status: "all fields required" });
+    if (!fullName || !email || !password)
+      return res
+        .status(400)
+        .json({ status: "failed", message: "all fields required" });
 
-    const user = await User.create({ fullName, email, role, password });
+    await User.create({ fullName, email, password });
 
-    return res
-      .status(201)
-      .json({ status: "user created successfully", id: user._id });
+    return res.status(201).json({
+      status: "success",
+      message: "user created successfully",
+    });
   } catch (error) {
-    return res.json({ error });
+    // Handle duplicate email error
+    if (error.code === 11000 && error.keyPattern && error.keyPattern.email) {
+      return res.status(400).json({
+        status: "failed",
+        message: "Email already exists. Please use a different email.",
+      });
+    }
+
+    // Handle other errors
+    return res.status(500).json({
+      status: "failed",
+      message: "Failed to register user",
+      error: error.message,
+    });
   }
 }
 
@@ -34,12 +50,15 @@ async function handleLoginUser(req, res) {
 
   try {
     if (!email || !password) {
-      return res.status(400).json({ status: "all fields required" });
+      return res
+        .status(400)
+        .json({ status: "failed", message: "all fields required" });
     }
 
-    const token = await User.matchPasswordAndGenerateToken(email, password);
-    const id = await req.user?._id;
-
+    const { token, id } = await User.matchPasswordAndGenerateToken(
+      email,
+      password
+    );
 
     return res
       .cookie("token", token)
@@ -52,7 +71,6 @@ async function handleLoginUser(req, res) {
       .json({ status: "failed", message: "Invalid email or password" });
   }
 }
-
 
 // ADMIN ROUTES
 
@@ -71,13 +89,14 @@ async function handleUpdateUser(req, res) {
     await User.findByIdAndUpdate(id, {
       fullName,
       role,
-      password,
       email,
     });
 
-    return res.status(201).json({ status: "update success" });
+    return res
+      .status(201)
+      .json({ status: "success", message: "update success" });
   } catch (error) {
-    return res.json({ status: "failed update", error });
+    return res.json({ status: "failed", message: "failed update", error });
   }
 }
 
@@ -91,14 +110,15 @@ async function handleGetSingleUser(req, res) {
       .send({ status: "failed", message: "Invalid ID format" });
   }
   try {
-    const user = await User.findById(id);
+    const { _id, fullName, email, role } = await User.findById(id);
 
-    return res.status(200).json({ status: "success", user });
+    return res
+      .status(200)
+      .json({ status: "success", user: { _id, fullName, email, role } });
   } catch (error) {
     return res.json({ status: "failed", error });
   }
 }
-
 
 // Logout User
 async function handleLogoutUser(req, res) {
@@ -119,6 +139,23 @@ async function handleLogoutUser(req, res) {
   }
 }
 
+async function handleDeleteUser(req, res) {
+  if (!req.params.id)
+    return res
+      .status(400)
+      .json({ status: "failed", message: "user not fount" });
+  try {
+    await User.findByIdAndDelete(req.params.id);
+
+    return res
+      .status(201)
+      .json({ status: "success", message: "user delete success" });
+  } catch (error) {
+    console.log(error);
+    return res.status(500).json({ status: "failed", message: "server error" });
+  }
+}
+
 module.exports = {
   handleSignupNewUser,
   handleGetAllUser,
@@ -126,4 +163,5 @@ module.exports = {
   handleLogoutUser,
   handleUpdateUser,
   handleGetSingleUser,
+  handleDeleteUser,
 };

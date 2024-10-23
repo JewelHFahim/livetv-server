@@ -48,8 +48,7 @@ userSchema.pre("save", function (next) {
 });
 
 // Matching LoginPassword and generating token
-userSchema.static(
-  "matchPasswordAndGenerateToken",
+userSchema.static("matchPasswordAndGenerateToken",
   async function (email, password) {
     try {
       const user = await this.findOne({ email });
@@ -70,7 +69,8 @@ userSchema.static(
 
       const token = createTokenForUser(user);
 
-      return token;
+      return {token, id: user._id};
+
     } catch (error) {
       console.error("Error in matchPasswordAndGenerateToken:", error);
       throw error;
