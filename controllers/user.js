@@ -63,7 +63,13 @@ async function handleLoginUser(req, res) {
     return res
       .cookie("token", token)
       .status(200)
-      .json({ status: "success", message: "login success", token, id });
+      .json({
+        status: "success",
+        message: "login success",
+        token,
+        id,
+        tokenExpiration: new Date(),
+      });
   } catch (error) {
     console.log("Error:", error);
     return res
@@ -139,6 +145,7 @@ async function handleLogoutUser(req, res) {
   }
 }
 
+// Delete User
 async function handleDeleteUser(req, res) {
   if (!req.params.id)
     return res

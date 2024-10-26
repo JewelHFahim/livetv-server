@@ -11,6 +11,5 @@ router.post("/signup", handleSignupNewUser);
 router.get("/", handleGetAllUser);
 router.delete("/:id", handleDeleteUser);
 router.put("/:id", handleUpdateUser);
-// router.get("/:id", handleGetSingleUser);
 
 module.exports = router;
