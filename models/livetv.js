@@ -13,10 +13,12 @@ const livetvSchema = new mongoose.Schema(
 
     posterName: {
       type: String,
+      default: "../uploads/bbc.jpg",
     },
 
     thumbName: {
       type: String,
+      default: "../uploads/bbc.jpg",
     },
 
     isPaid: {
@@ -34,7 +36,7 @@ const livetvSchema = new mongoose.Schema(
       required: true,
       ref: "category",
     },
-    
+
     deleted: {
       type: Boolean,
       default: false,

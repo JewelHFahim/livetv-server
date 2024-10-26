@@ -5,10 +5,10 @@ const Livetv = require("../models/livetv");
 async function handleCreateLivetv(req, res) {
   const { channelName, description, categoryId } = req.body;
 
-  const posterFile = req.files['poster'] ? req.files['poster'][0] : null;
-  const thumbFile = req.files['thumb'] ? req.files['thumb'][0] : null;
+  const posterFile = req.files['poster'] ? req.files['poster'][0] : "";
+  const thumbFile = req.files['thumb'] ? req.files['thumb'][0] : "";
 
-  if (!channelName || !description || !posterFile || !thumbFile || !categoryId) {
+  if (!channelName || !description  || !categoryId) {
     return res.status(400).json({ status: 'failed', message: 'All fields are required, including files.' });
   }
 
@@ -23,9 +23,7 @@ async function handleCreateLivetv(req, res) {
       thumbName,
       categoryId
     });
-
-
-
+    
     return res.status(201).json({ status: 'success', message: 'TV channel created successfully.' });
   } catch (error) {
     console.error('Error creating TV channel:', error);
