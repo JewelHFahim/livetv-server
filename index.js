@@ -26,8 +26,8 @@ const PORT = process.env.PORT || 8000;
 // Middlewares
 app.use(
   cors({
-    origin: "http://localhost:3000",
-    // origin: "https://live-tv-app.netlify.app/login",
+    // origin: "http://localhost:3000",
+    origin: "https://live-tv-app.netlify.app",
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
