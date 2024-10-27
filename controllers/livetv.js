@@ -31,8 +31,6 @@ async function handleCreateLivetv(req, res) {
   }
 }
 
-
-
 // Get All Live Tv List
 async function handleGetAllLivetvList(req, res) {
     try {
