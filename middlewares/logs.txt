@@ -547,3 +547,15 @@ Response Status: 200 - Time Taken: 809ms
 
 [2024-10-27T17:21:21.767Z] GET /api/admin/events/event
 Response Status: 200 - Time Taken: 85ms
+
+[2024-10-27T17:35:40.896Z] POST /api/user/login
+Response Status: 200 - Time Taken: 112ms
+
+[2024-10-27T17:35:41.393Z] GET /api/user/671d0ecb4c0091a9a752c6a9
+Response Status: 200 - Time Taken: 86ms
+
+[2024-10-27T17:35:46.778Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 83ms
+
+[2024-10-27T17:35:47.912Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 523ms
