@@ -42,7 +42,6 @@ app.use(checkForAuthenticationCookie("token"));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(logger);
 
-
 // View Engine
 app.set("view engine", "ejs");
 app.set("views", path.resolve("./views"));
