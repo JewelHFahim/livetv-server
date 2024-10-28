@@ -25,7 +25,7 @@ const PORT = process.env.PORT || 8000;
   .then(() => console.log("MongoDB Connected"))
   .catch((error) => console.log("MongoDB Failed to Connect", error));
 
-// Middlewares
+// Middleware
 app.use(
   cors({
     // origin: "http://localhost:3000",
