@@ -9,7 +9,7 @@ function createTokenForUser(user) {
     role: user.role,
   };
   // {expiresIn: '7d'}
-  const token = jwt.sign(payload, SECRET);
+  const token = jwt.sign(payload, SECRET, {expiresIn: '7d'});
 
   return token;
 }

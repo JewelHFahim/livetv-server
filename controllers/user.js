@@ -37,11 +37,16 @@ async function handleSignupNewUser(req, res) {
 
 // Get All Users
 async function handleGetAllUser(req, res) {
-  const users = await User.find({});
+  try {
+    const users = await User.find({});
 
-  return res
-    .status(200)
-    .json({ status: "success", total: users.length, users });
+    return res.status(200).json({ status: "success", total: users.length, users });
+
+  } catch (error) {
+    return res.status(404).json({status: "failed", message: error.message})
+  }
+
+  
 }
 
 // Login User
@@ -60,16 +65,12 @@ async function handleLoginUser(req, res) {
       password
     );
 
-    return res
-      .cookie("token", token)
-      .status(200)
-      .json({
-        status: "success",
-        message: "login success",
-        token,
-        id,
-        tokenExpiration: new Date(),
-      });
+    return res.cookie("token", token).status(200).json({
+      status: "success",
+      message: "login success",
+      token,
+      id,
+    });
   } catch (error) {
     console.log("Error:", error);
     return res

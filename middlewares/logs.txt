@@ -1,561 +1,681 @@
 
-[2024-10-27T15:16:42.369Z] GET /api/admin/events/event/671e2de183e853c81841f43b
+[2024-10-27T18:45:19.796Z] POST /api/user/logout
+Response Status: 200 - Time Taken: 2ms
+
+[2024-10-27T18:45:37.792Z] POST /api/user/login
+Response Status: 400 - Time Taken: 13ms
+
+[2024-10-27T18:46:02.846Z] POST /api/user/login
+Response Status: 400 - Time Taken: 6ms
+
+[2024-10-27T18:46:11.109Z] POST /api/user/login
 Response Status: 200 - Time Taken: 14ms
 
-[2024-10-27T15:16:54.778Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+[2024-10-27T18:46:11.461Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+Response Status: 200 - Time Taken: 3ms
 
-[2024-10-27T15:16:54.782Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 9ms
-Response Status: 200 - Time Taken: 10ms
-
-[2024-10-27T15:30:05.955Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T15:30:05.960Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 11ms
-Response Status: 200 - Time Taken: 14ms
-
-[2024-10-27T15:30:18.679Z] DELETE /api/admin/events/event/671e2de183e853c81841f439
-Response Status: 201 - Time Taken: 4ms
-
-[2024-10-27T15:30:18.701Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T15:31:56.371Z] GET /api/admin/events/event/
-Response Status: 200 - Time Taken: 6ms
-
-[2024-10-27T15:32:16.552Z] GET /api/admin/events/event/
+[2024-10-27T19:03:07.658Z] POST /api/user/login
 Response Status: 200 - Time Taken: 15ms
 
-[2024-10-27T15:33:51.033Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T15:33:51.039Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 10ms
-Response Status: 200 - Time Taken: 9ms
-
-[2024-10-27T15:34:36.387Z] DELETE /api/admin/events/event/671e2de183e853c81841f43c
-Response Status: 201 - Time Taken: 5ms
-
-[2024-10-27T15:34:36.415Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T15:34:38.711Z] DELETE /api/admin/events/event/671e2de183e853c81841f43d
-Response Status: 201 - Time Taken: 5ms
-
-[2024-10-27T15:34:38.731Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T15:34:43.827Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T15:34:43.831Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 7ms
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T15:34:46.806Z] DELETE /api/admin/events/event/671e2de183e853c81841f43e
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T15:34:46.825Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T15:34:48.317Z] DELETE /api/admin/events/event/671e2de183e853c81841f43f
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T15:34:48.331Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T15:34:49.211Z] DELETE /api/admin/events/event/671e2de183e853c81841f440
-Response Status: 201 - Time Taken: 4ms
-
-[2024-10-27T15:34:49.227Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T15:34:49.885Z] DELETE /api/admin/events/event/671e2de183e853c81841f441
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T15:34:49.900Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T15:34:50.556Z] DELETE /api/admin/events/event/671e2de183e853c81841f442
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T15:34:50.568Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 2ms
-
-[2024-10-27T15:34:51.828Z] GET /api/admin/livetv/trash-tv
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T15:34:51.863Z] GET /uploads/https://www.tbsnews.net/sites/default/files/styles/big_3/public/images/2024/07/18/geh.jpg
-
-[2024-10-27T15:34:51.866Z] GET /uploads/comming..
-
-[2024-10-27T15:34:57.021Z] DELETE /api/admin/events/event/671e2de183e853c81841f443
-Response Status: 201 - Time Taken: 2ms
-
-[2024-10-27T15:34:57.034Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T15:34:57.955Z] DELETE /api/admin/events/event/671e2de183e853c81841f444
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T15:34:57.968Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 2ms
-
-[2024-10-27T15:34:58.580Z] DELETE /api/admin/events/event/671e2de183e853c81841f445
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T15:34:58.591Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T15:35:00.884Z] GET /api/admin/events/event
-
-[2024-10-27T15:35:00.886Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-Response Status: 200 - Time Taken: 4ms
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T15:35:08.836Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T15:35:08.839Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T15:36:27.650Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T15:40:04.559Z] POST /api/admin/events/event/
-Response Status: 200 - Time Taken: 141ms
-
-[2024-10-27T15:42:55.448Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 19ms
-
-[2024-10-27T15:56:43.372Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T15:56:43.377Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T15:57:19.751Z] POST /api/admin/events/event
-
-[2024-10-27T15:57:22.357Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 18ms
-
-[2024-10-27T15:58:38.331Z] POST /api/admin/events/event
-Response Status: 200 - Time Taken: 389ms
-
-[2024-10-27T15:58:38.732Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 10ms
-
-[2024-10-27T15:59:13.692Z] POST /api/admin/events/event
-Response Status: 200 - Time Taken: 278ms
-
-[2024-10-27T15:59:13.991Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 20ms
-
-[2024-10-27T16:00:24.900Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T16:00:40.766Z] GET /api/admin/events/event/
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T16:01:25.031Z] PUT /api/admin/events/event/671e2de183e853c81841f438/update
-Response Status: 201 - Time Taken: 8ms
-
-[2024-10-27T16:01:35.381Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T16:18:29.755Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 17ms
-
-[2024-10-27T16:18:36.654Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 13ms
-
-[2024-10-27T16:18:59.325Z] POST /api/admin/events/event
-Response Status: 200 - Time Taken: 539ms
-
-[2024-10-27T16:18:59.879Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-
-[2024-10-27T16:40:42.828Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T16:44:13.560Z] POST /api/admin/events/event
-Response Status: 200 - Time Taken: 302ms
-
-[2024-10-27T16:44:13.875Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T16:44:42.915Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T16:44:42.920Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 7ms
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T16:46:58.863Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 1ms
-
-[2024-10-27T16:46:58.877Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 20ms
-
-[2024-10-27T16:47:25.281Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T16:47:25.292Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-
-[2024-10-27T16:48:45.375Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T16:48:45.388Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T16:49:13.777Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 1ms
-
-[2024-10-27T16:49:13.788Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T16:49:21.104Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T16:49:21.113Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T16:49:49.363Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 2ms
-
-[2024-10-27T16:49:49.385Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 24ms
-
-[2024-10-27T16:49:52.375Z] GET /api/admin/events/event
-
-[2024-10-27T16:49:52.380Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-Response Status: 200 - Time Taken: 12ms
-Response Status: 200 - Time Taken: 10ms
-
-[2024-10-27T16:50:02.222Z] POST /api/admin/events/event
-Response Status: 200 - Time Taken: 174ms
-
-[2024-10-27T16:50:02.413Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-
-[2024-10-27T16:50:31.041Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T16:50:31.053Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T16:51:49.223Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T16:51:49.261Z] GET /api/admin/events/event
+[2024-10-27T19:03:07.873Z] GET /api/user/671641bbdcc64c2b9c7c2be9
 Response Status: 200 - Time Taken: 6ms
 
-[2024-10-27T16:52:46.257Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 2ms
+[2024-10-27T19:03:13.827Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 7ms
 
-[2024-10-27T16:52:46.271Z] GET /api/admin/events/event
+[2024-10-27T19:03:15.057Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 7ms
+
+[2024-10-27T19:03:24.349Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+
+[2024-10-27T19:03:24.353Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 7ms
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-27T19:04:02.802Z] GET /api/admin/category
+Response Status: 401 - Time Taken: 0ms
+
+[2024-10-27T19:04:04.742Z] GET /api/admin/category
+Response Status: 401 - Time Taken: 0ms
+
+[2024-10-27T19:04:06.447Z] GET /api/admin/category
+Response Status: 401 - Time Taken: 1ms
+
+[2024-10-27T19:04:07.635Z] GET /api/admin/category
+Response Status: 401 - Time Taken: 0ms
+
+[2024-10-27T19:04:13.304Z] GET /api/admin/category
+Response Status: 401 - Time Taken: 0ms
+
+[2024-10-27T19:04:16.128Z] GET /api/admin/category
+Response Status: 401 - Time Taken: 0ms
+
+[2024-10-27T19:07:43.936Z] POST /api/user/login
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-27T19:07:44.298Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-27T19:07:57.374Z] GET /api/admin
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-27T19:08:03.652Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-27T19:08:04.153Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-27T19:23:35.938Z] POST /api/user/login
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-27T19:23:36.227Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+Response Status: 200 - Time Taken: 2ms
+
+[2024-10-27T19:23:47.619Z] GET /api/admin
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-27T19:24:10.089Z] POST /api/admin/signup
+Response Status: 201 - Time Taken: 14ms
+
+[2024-10-27T19:24:10.116Z] GET /api/admin
+
+[2024-10-27T19:24:10.118Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+Response Status: 200 - Time Taken: 5ms
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-27T19:24:23.920Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-27T19:24:26.854Z] PUT /api/admin/671e935a0f639ccf336beff9
+Response Status: 201 - Time Taken: 7ms
+
+[2024-10-27T19:24:26.871Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-27T19:24:26.885Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+
+[2024-10-27T19:24:26.887Z] GET /api/admin
+Response Status: 200 - Time Taken: 4ms
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-27T19:24:34.936Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-27T19:33:13.058Z] POST /api/user/login
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-27T19:33:13.285Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-27T19:33:18.123Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-27T19:33:18.894Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-27T19:33:41.388Z] GET /api/admin
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T05:52:15.795Z] POST /api/user/login
+Response Status: 200 - Time Taken: 22ms
+
+[2024-10-28T05:52:18.153Z] GET /api/user/671e935a0f639ccf336beff9
 Response Status: 200 - Time Taken: 32ms
 
-[2024-10-27T16:52:48.774Z] GET /api/admin/events/event
+[2024-10-28T05:54:15.189Z] POST /api/user/login
+Response Status: 200 - Time Taken: 8ms
 
-[2024-10-27T16:52:48.778Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+[2024-10-28T05:54:15.529Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T05:59:46.863Z] POST /api/user/login
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-28T05:59:47.327Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T06:00:05.151Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T06:00:05.841Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T06:00:17.714Z] DELETE /api/admin/events/event/671e67d5c62d110d53069e7a
+Response Status: 201 - Time Taken: 5ms
+
+[2024-10-28T06:00:17.741Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T06:03:15.871Z] POST /api/user/login
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T06:03:16.172Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T06:06:14.060Z] POST /api/user/login
+Response Status: 200 - Time Taken: 17ms
+
+[2024-10-28T06:06:14.429Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T06:06:40.761Z] GET /api/admin
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T06:07:05.625Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T06:07:06.490Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T06:46:48.574Z] POST /api/user/login
+Response Status: 200 - Time Taken: 14ms
+
+[2024-10-28T06:46:52.110Z] GET /api/admin/events/event/?page=2&&limit=20
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T06:48:17.874Z] GET /api/admin/events/event/?page=2&&limit=20
+Response Status: 200 - Time Taken: 19ms
+
+[2024-10-28T06:54:27.824Z] GET /api/admin/events/event/?time=2024-10-27T02:00:00.000Z
+Response Status: 200 - Time Taken: 11ms
+
+[2024-10-28T06:54:52.935Z] GET /api/admin/events/event/?time=2024-10-27T02:00:00.000Z
+Response Status: 500 - Time Taken: 27ms
+
+[2024-10-28T06:55:14.844Z] GET /api/admin/events/event/?time=2024-10-27T02:00:00.000Z
+Response Status: 200 - Time Taken: 11ms
+
+[2024-10-28T06:55:56.119Z] GET /api/admin/events/event/?event_time=2024-10-27T02:00:00.000Z
+Response Status: 500 - Time Taken: 17ms
+
+[2024-10-28T06:59:40.537Z] GET /api/admin/events/event/?event_time=2024-10-27T02:00:00.000Z
+Response Status: 200 - Time Taken: 15ms
+
+[2024-10-28T07:00:27.274Z] GET /api/admin/events/event/?event_name=India%20Women%20v%20New%20Zealand%20Women
+Response Status: 200 - Time Taken: 16ms
+
+[2024-10-28T07:00:33.408Z] GET /api/admin/events/event/?event_name=India%20Women
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T07:06:23.331Z] GET /api/admin/events/event/?event_name=India%20Women
+Response Status: 200 - Time Taken: 13ms
+
+[2024-10-28T07:06:39.150Z] GET /api/admin/events/event/?event_time=2024-10-27T02:00:00.000Z
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T07:07:04.004Z] GET /api/admin/events/event/?event_name=India%20Women%20v%20New%20Zealand%20Women
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T07:07:10.971Z] GET /api/admin/events/event/?event_name=India%20Women%20v
+Response Status: 200 - Time Taken: 2ms
+
+[2024-10-28T07:15:10.046Z] GET /api/admin/events/event/?event_time=2024-10-27T02:00:00.000Z
+Response Status: 200 - Time Taken: 14ms
+
+[2024-10-28T07:15:44.716Z] GET /api/admin/events/event/?event_time=2024-10-27T02:00:00.000Z
+Response Status: 200 - Time Taken: 15ms
+
+[2024-10-28T07:16:14.067Z] GET /api/admin/events/event/?event_time=2024-10-28T02:00:00.000Z
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-28T07:16:40.337Z] GET /api/admin/events/event/?event_time=2024-10-28
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T07:16:49.228Z] GET /api/admin/events/event/?event_time=2024-10-27
+Response Status: 200 - Time Taken: 2ms
+
+[2024-10-28T07:17:02.831Z] GET /api/admin/events/event/?event_time=2024-10-28
+Response Status: 200 - Time Taken: 16ms
+
+[2024-10-28T07:17:08.119Z] GET /api/admin/events/event/?event_time=2024-10-29
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T07:17:17.690Z] GET /api/admin/events/event/?event_time=2024-10-30
+Response Status: 200 - Time Taken: 7ms
+
+[2024-10-28T07:17:47.493Z] GET /api/admin/events/event/?event_time=2024-10-31
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T07:29:09.377Z] GET /api/admin/events/event/?sort=event_time
+Response Status: 500 - Time Taken: 17ms
+
+[2024-10-28T07:30:07.110Z] GET /api/admin/events/event/?sort=event_time
+Response Status: 500 - Time Taken: 3ms
+
+[2024-10-28T07:30:26.760Z] GET /api/admin/events/event/?sort=event_time
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-28T07:31:03.534Z] GET /api/admin/events/event/?sort=event_id
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T07:31:33.195Z] GET /api/admin/events/event/?sort=event_id
+Response Status: 200 - Time Taken: 1ms
+
+[2024-10-28T07:33:28.060Z] GET /api/admin/events/event/?sort=event_id
+Response Status: 200 - Time Taken: 21ms
+
+[2024-10-28T07:34:23.230Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T07:34:24.529Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 7ms
+
+[2024-10-28T07:34:39.850Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T07:34:39.854Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 6ms
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-28T07:38:41.606Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 19ms
+
+[2024-10-28T07:38:53.034Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T07:38:53.040Z] GET /api/admin/events/event
 Response Status: 200 - Time Taken: 11ms
 Response Status: 200 - Time Taken: 10ms
 
-[2024-10-27T16:53:06.728Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
+[2024-10-28T07:39:02.471Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 3ms
 
-[2024-10-27T16:53:06.744Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 10ms
+[2024-10-28T07:39:34.471Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 16ms
 
-[2024-10-27T16:55:40.052Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-Response Status: 200 - Time Taken: 26ms
+[2024-10-28T07:40:35.368Z] GET /api/admin/events/event/?sort=-event_time
+Response Status: 200 - Time Taken: 11ms
 
-[2024-10-27T16:55:40.083Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 22ms
-
-[2024-10-27T16:56:01.821Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 1ms
-
-[2024-10-27T16:56:01.835Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-
-[2024-10-27T16:57:38.575Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 2ms
-
-[2024-10-27T16:57:38.592Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 22ms
-
-[2024-10-27T16:57:42.638Z] GET /api/admin/events/event
-
-[2024-10-27T16:57:42.648Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-Response Status: 200 - Time Taken: 29ms
-Response Status: 200 - Time Taken: 27ms
-
-[2024-10-27T16:57:56.708Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T16:57:56.721Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-
-[2024-10-27T16:58:44.371Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T16:58:44.382Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 22ms
+[2024-10-28T07:45:00.192Z] GET /api/admin/events/event/?sort=-event_time,event_name
 Response Status: 200 - Time Taken: 20ms
 
-[2024-10-27T16:58:55.747Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 1ms
-
-[2024-10-27T16:58:55.762Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T16:59:29.877Z] GET /api/admin/events/event
-
-[2024-10-27T16:59:29.889Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-Response Status: 200 - Time Taken: 35ms
-Response Status: 200 - Time Taken: 34ms
-
-[2024-10-27T16:59:39.440Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 30ms
-
-[2024-10-27T16:59:39.500Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T17:01:10.282Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-
-[2024-10-27T17:01:10.294Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 23ms
-Response Status: 200 - Time Taken: 19ms
-
-[2024-10-27T17:01:42.853Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T17:01:42.865Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T17:02:29.589Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 0ms
-
-[2024-10-27T17:02:29.601Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T17:02:42.535Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 30ms
-
-[2024-10-27T17:02:42.582Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 23ms
-
-[2024-10-27T17:04:06.522Z] GET /api/admin/events/event
-
-[2024-10-27T17:04:06.536Z] GET /api/user/671641bbdcc64c2b9c7c2be9
-Response Status: 200 - Time Taken: 33ms
-Response Status: 200 - Time Taken: 25ms
-
-[2024-10-27T17:04:37.181Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 1ms
-
-[2024-10-27T17:04:37.195Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
-
-[2024-10-27T17:06:00.385Z] POST /api/admin/events/event/add
-Response Status: 400 - Time Taken: 1ms
-
-[2024-10-27T17:06:00.396Z] GET /api/admin/events/event
+[2024-10-28T07:46:01.694Z] GET /api/admin/events/event/?sort=-event_time,event_name
 Response Status: 200 - Time Taken: 6ms
 
-[2024-10-27T17:07:38.147Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 28ms
+[2024-10-28T07:47:54.636Z] GET /api/admin/events/event/?sort=-event_time,event_name
+Response Status: 200 - Time Taken: 20ms
 
-[2024-10-27T17:07:38.210Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 15ms
+[2024-10-28T07:59:55.464Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 7ms
 
-[2024-10-27T17:08:32.719Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 15ms
+[2024-10-28T07:59:58.624Z] GET /api/admin
+Response Status: 200 - Time Taken: 4ms
 
-[2024-10-27T17:08:32.748Z] GET /api/admin/events/event
+[2024-10-28T08:14:11.920Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 18ms
+
+[2024-10-28T08:14:37.925Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 19ms
+
+[2024-10-28T08:15:39.295Z] GET /api/admin/category
 Response Status: 200 - Time Taken: 17ms
 
-[2024-10-27T17:09:01.158Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 4ms
+[2024-10-28T08:15:48.807Z] GET /api/user/671e935a0f639ccf336beff9
 
-[2024-10-27T17:09:01.173Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 8ms
+[2024-10-28T08:15:48.813Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 14ms
+Response Status: 200 - Time Taken: 14ms
 
-[2024-10-27T17:10:15.726Z] GET /api/admin/events/event
+[2024-10-28T08:16:00.479Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T08:16:00.496Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 63ms
+Response Status: 200 - Time Taken: 61ms
+
+[2024-10-28T08:26:56.279Z] POST /api/admin/events/event
+Response Status: 200 - Time Taken: 1563ms
+
+[2024-10-28T08:26:57.859Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 12ms
+
+[2024-10-28T08:33:18.926Z] GET /api/user/671e935a0f639ccf336beff9
 Response Status: 200 - Time Taken: 4ms
 
-[2024-10-27T17:11:52.687Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 18ms
+[2024-10-28T08:33:25.411Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 8ms
 
-[2024-10-27T17:11:52.721Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 19ms
+[2024-10-28T08:44:10.251Z] GET /api/admin/events/event?page=1&&limit=10
+Response Status: 200 - Time Taken: 25ms
 
-[2024-10-27T17:14:55.704Z] POST /api/admin/events/event/add
-Response Status: 201 - Time Taken: 6ms
+[2024-10-28T08:44:21.674Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 4ms
 
-[2024-10-27T17:14:55.723Z] GET /api/admin/events/event
+[2024-10-28T08:44:53.269Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T08:45:04.283Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T08:45:10.246Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T08:45:19.145Z] GET /api/admin/events/event?page=3&&limit=6
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T08:50:38.731Z] GET /api/admin/events/event?page=3&&limit=6
+Response Status: 200 - Time Taken: 16ms
+
+[2024-10-28T08:50:45.466Z] GET /api/admin/events/event?page=4&&limit=6
 Response Status: 200 - Time Taken: 9ms
 
-[2024-10-27T17:15:00.918Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+[2024-10-28T08:52:13.675Z] GET /api/admin/events/event?page=4&&limit=6
+Response Status: 500 - Time Taken: 42ms
 
-[2024-10-27T17:15:00.922Z] GET /api/admin/events/event
+[2024-10-28T08:52:22.228Z] GET /api/admin/events/event?page=4&&limit=6
+Response Status: 500 - Time Taken: 8ms
+
+[2024-10-28T08:53:44.910Z] GET /api/admin/events/event?page=4&&limit=6
+Response Status: 404 - Time Taken: 12ms
+
+[2024-10-28T08:54:40.980Z] GET /api/admin/events/event?page=4&&limit=6
+Response Status: 404 - Time Taken: 13ms
+
+[2024-10-28T08:54:58.542Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T08:54:58.549Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 16ms
+Response Status: 200 - Time Taken: 16ms
+
+[2024-10-28T08:55:30.105Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T08:55:30.114Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 21ms
+Response Status: 200 - Time Taken: 18ms
+
+[2024-10-28T09:05:55.265Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T09:05:55.268Z] GET /api/admin/events/event
 Response Status: 200 - Time Taken: 8ms
+Response Status: 200 - Time Taken: 8ms
+
+[2024-10-28T09:07:36.406Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T09:07:36.409Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 6ms
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:08:09.289Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T09:08:09.293Z] GET /api/admin/events/event
 Response Status: 200 - Time Taken: 7ms
-
-[2024-10-27T17:16:11.663Z] DELETE /api/admin/events/event/671e750f0b3c15c258c82d09
-Response Status: 201 - Time Taken: 4ms
-
-[2024-10-27T17:16:11.699Z] GET /api/admin/events/event
 Response Status: 200 - Time Taken: 5ms
 
-[2024-10-27T17:16:14.075Z] DELETE /api/admin/events/event/671e74580b3c15c258c82d06
-Response Status: 201 - Time Taken: 3ms
+[2024-10-28T09:08:16.135Z] GET /api/user/671e935a0f639ccf336beff9
 
-[2024-10-27T17:16:14.104Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T17:16:16.227Z] DELETE /api/admin/events/event/671e73ad9e49004beabdb189
-Response Status: 201 - Time Taken: 2ms
-
-[2024-10-27T17:16:16.260Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T17:16:18.606Z] DELETE /api/admin/events/event/671e73909e49004beabdb186
-Response Status: 201 - Time Taken: 2ms
-
-[2024-10-27T17:16:18.631Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 5ms
-
-[2024-10-27T17:16:44.103Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T17:16:47.618Z] PUT /api/admin/category/6716af2e7a31fc0bc0b286df
-Response Status: 200 - Time Taken: 10ms
-
-[2024-10-27T17:16:47.635Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:16:49.417Z] PUT /api/admin/category/6716b4cc8551683003bc2c13
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:16:49.431Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 1ms
-
-[2024-10-27T17:16:51.142Z] PUT /api/admin/category/67173dc28baefd276d10d907
-Response Status: 200 - Time Taken: 4ms
-
-[2024-10-27T17:16:51.154Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:16:54.332Z] GET /api/admin/category/6718a9dc5e35ad64512c43a3
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:16:58.403Z] PUT /api/admin/category/edit/6718a9dc5e35ad64512c43a3
-Response Status: 201 - Time Taken: 2ms
-
-[2024-10-27T17:16:58.414Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:17:00.772Z] GET /api/admin/category/67195730431162910ebee4cf
-Response Status: 200 - Time Taken: 2ms
-
-[2024-10-27T17:17:04.281Z] PUT /api/admin/category/edit/67195730431162910ebee4cf
-Response Status: 201 - Time Taken: 3ms
-
-[2024-10-27T17:17:04.293Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:18:19.862Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 3ms
-
-[2024-10-27T17:18:23.242Z] GET /api/admin/events/event
-
-[2024-10-27T17:18:23.245Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+[2024-10-28T09:08:16.139Z] GET /api/admin/events/event
 Response Status: 200 - Time Taken: 6ms
 Response Status: 200 - Time Taken: 4ms
 
-[2024-10-27T17:20:23.082Z] GET /api/user/671641bbdcc64c2b9c7c2be9
+[2024-10-28T09:09:55.294Z] GET /api/admin/events/event
 
-[2024-10-27T17:20:23.095Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 90ms
-Response Status: 200 - Time Taken: 162ms
+[2024-10-28T09:09:55.299Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 8ms
+Response Status: 200 - Time Taken: 5ms
 
-[2024-10-27T17:20:27.482Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 79ms
+[2024-10-28T09:19:24.489Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 3ms
 
-[2024-10-27T17:20:38.728Z] PUT /api/admin/category/671cf8ab9f5cf0c5ef741d55
-Response Status: 200 - Time Taken: 93ms
+[2024-10-28T09:19:24.495Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 8ms
 
-[2024-10-27T17:20:38.832Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 83ms
+[2024-10-28T09:19:30.396Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 5ms
 
-[2024-10-27T17:20:40.994Z] PUT /api/admin/category/6716a1311adb4772afb6c939
-Response Status: 200 - Time Taken: 87ms
+[2024-10-28T09:19:37.067Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 5ms
 
-[2024-10-27T17:20:41.094Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 79ms
+[2024-10-28T09:19:38.669Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:43.746Z] PUT /api/admin/category/67166705e6c7835b8c15fa7a
-Response Status: 200 - Time Taken: 397ms
+[2024-10-28T09:19:39.941Z] GET /api/admin/events/event?page=5&&limit=5
+Response Status: 404 - Time Taken: 2ms
 
-[2024-10-27T17:20:44.162Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 84ms
+[2024-10-28T09:19:40.540Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:45.394Z] PUT /api/admin/category/671666de2973f07608c4b158
-Response Status: 200 - Time Taken: 88ms
+[2024-10-28T09:19:40.806Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 2ms
 
-[2024-10-27T17:20:45.494Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 100ms
+[2024-10-28T09:20:01.534Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:47.338Z] GET /api/admin/category/trash-list
-Response Status: 200 - Time Taken: 80ms
+[2024-10-28T09:20:03.547Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 4ms
 
-[2024-10-27T17:20:49.704Z] DELETE /api/admin/category/trash-list/671666de2973f07608c4b158
-Response Status: 200 - Time Taken: 91ms
+[2024-10-28T09:20:05.522Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 4ms
 
-[2024-10-27T17:20:49.835Z] GET /api/admin/category/trash-list
-Response Status: 200 - Time Taken: 96ms
+[2024-10-28T09:20:08.509Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 4ms
 
-[2024-10-27T17:20:51.248Z] DELETE /api/admin/category/trash-list/67166705e6c7835b8c15fa7a
-Response Status: 200 - Time Taken: 84ms
+[2024-10-28T09:20:10.209Z] GET /api/admin/events/event?page=8&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:51.345Z] GET /api/admin/category/trash-list
-Response Status: 200 - Time Taken: 77ms
+[2024-10-28T09:20:10.641Z] GET /api/admin/events/event?page=9&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:52.668Z] DELETE /api/admin/category/trash-list/6716a1311adb4772afb6c939
-Response Status: 200 - Time Taken: 89ms
+[2024-10-28T09:20:12.204Z] GET /api/admin/events/event?page=8&&limit=5
+Response Status: 404 - Time Taken: 2ms
 
-[2024-10-27T17:20:52.771Z] GET /api/admin/category/trash-list
-Response Status: 200 - Time Taken: 78ms
+[2024-10-28T09:20:12.537Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 2ms
 
-[2024-10-27T17:20:54.539Z] DELETE /api/admin/category/trash-list/67195e09d8178deaf8d2debf
-Response Status: 200 - Time Taken: 81ms
+[2024-10-28T09:20:12.847Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:54.630Z] GET /api/admin/category/trash-list
-Response Status: 200 - Time Taken: 81ms
+[2024-10-28T09:20:13.189Z] GET /api/admin/events/event?page=5&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:55.937Z] DELETE /api/admin/category/trash-list/671cf8ab9f5cf0c5ef741d55
-Response Status: 200 - Time Taken: 82ms
+[2024-10-28T09:20:13.424Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:56.026Z] GET /api/admin/category/trash-list
-Response Status: 200 - Time Taken: 81ms
+[2024-10-28T09:20:14.480Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:20:57.750Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 79ms
+[2024-10-28T09:20:14.868Z] GET /api/admin/events/event?page=5&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:21:20.936Z] POST /api/admin/events/event
-Response Status: 200 - Time Taken: 809ms
+[2024-10-28T09:20:15.081Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 3ms
 
-[2024-10-27T17:21:21.767Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 85ms
+[2024-10-28T09:20:28.512Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 2ms
 
-[2024-10-27T17:35:40.896Z] POST /api/user/login
-Response Status: 200 - Time Taken: 112ms
+[2024-10-28T09:20:47.268Z] GET /api/user/671e935a0f639ccf336beff9
 
-[2024-10-27T17:35:41.393Z] GET /api/user/671d0ecb4c0091a9a752c6a9
-Response Status: 200 - Time Taken: 86ms
+[2024-10-28T09:20:47.271Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 5ms
+Response Status: 200 - Time Taken: 6ms
 
-[2024-10-27T17:35:46.778Z] GET /api/admin/category
-Response Status: 200 - Time Taken: 83ms
+[2024-10-28T09:20:50.590Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 5ms
 
-[2024-10-27T17:35:47.912Z] GET /api/admin/events/event
-Response Status: 200 - Time Taken: 523ms
+[2024-10-28T09:20:51.989Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T09:20:52.959Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:20:54.905Z] GET /api/admin/events/event?page=5&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:20:55.521Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:20:55.986Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:05.519Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:06.553Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:08.532Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:10.531Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:12.527Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 4ms
+
+[2024-10-28T09:21:16.519Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:19.504Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:21:24.523Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:32.538Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 4ms
+
+[2024-10-28T09:21:33.495Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:37.795Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 2ms
+
+[2024-10-28T09:21:37.800Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 9ms
+
+[2024-10-28T09:21:40.062Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T09:21:40.732Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:21:41.452Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:43.603Z] GET /api/admin/events/event?page=5&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:44.084Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:21:44.865Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:22:46.912Z] GET /api/admin/events/event?page=8&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:22:47.559Z] GET /api/admin/events/event?page=9&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:23:30.529Z] GET /api/admin/events/event?page=9&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:23:35.501Z] GET /api/admin/events/event?page=9&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:23:41.974Z] GET /api/admin/events/event?page=8&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:23:42.942Z] GET /api/admin/events/event?page=7&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:23:55.777Z] GET /api/admin/events/event?page=6&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:23:56.766Z] GET /api/admin/events/event?page=5&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:23:57.191Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:23:57.589Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T09:23:58.212Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T09:24:01.051Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:24:26.214Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T09:24:59.769Z] GET /api/admin/events/event?page=1&&limit=5
+
+[2024-10-28T09:24:59.782Z] GET /api/user/671e935a0f639ccf336beff9
+Response Status: 200 - Time Taken: 14ms
+Response Status: 200 - Time Taken: 36ms
+
+[2024-10-28T09:25:05.411Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 7ms
+
+[2024-10-28T09:26:46.903Z] GET /api/admin/events/event
+Response Status: 200 - Time Taken: 21ms
+
+[2024-10-28T09:26:53.851Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T09:26:53.859Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 14ms
+Response Status: 200 - Time Taken: 13ms
+
+[2024-10-28T09:26:55.551Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-28T09:26:57.179Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 7ms
+
+[2024-10-28T09:27:10.808Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:27:34.826Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:27:55.540Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:28:38.535Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:28:39.516Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 5ms
+
+[2024-10-28T09:28:56.538Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 4ms
+
+[2024-10-28T09:28:58.528Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 3ms
+
+[2024-10-28T09:29:02.529Z] GET /api/admin/events/event?page=4&&limit=5
+Response Status: 404 - Time Taken: 2ms
+
+[2024-10-28T09:30:33.538Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 4ms
+
+[2024-10-28T09:30:56.581Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:30:57.355Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:34:06.954Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:34:07.569Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:34:13.855Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:34:24.991Z] GET /api/admin
+Response Status: 200 - Time Taken: 3ms
+
+[2024-10-28T09:35:41.564Z] GET /api/user/671e935a0f639ccf336beff9
+
+[2024-10-28T09:35:41.577Z] GET /api/admin/events/event?page=1&&limit=5
+Response Status: 200 - Time Taken: 25ms
+Response Status: 200 - Time Taken: 22ms
+
+[2024-10-28T09:35:44.063Z] GET /api/admin/events/event?page=2&&limit=5
+Response Status: 200 - Time Taken: 5ms
+
+[2024-10-28T09:35:45.017Z] GET /api/admin/events/event?page=3&&limit=5
+Response Status: 200 - Time Taken: 6ms
+
+[2024-10-28T09:35:48.539Z] GET /api/admin/category
+Response Status: 200 - Time Taken: 7ms

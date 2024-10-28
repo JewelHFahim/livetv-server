@@ -84,42 +84,95 @@ cron.schedule("*/5 * * * *", handleFetchandSaveEvents);
 
 // Create Event
 async function handleCreateEvent(req, res) {
-  const { sport_name, event_id, event_name, event_time, istream, iscore,  thumb } = req.body;
-  console.log({ sport_name, event_id, event_name, event_time, istream, iscore,  thumb })
+  const {
+    sport_name,
+    event_id,
+    event_name,
+    event_time,
+    istream,
+    iscore,
+    thumb,
+  } = req.body;
+  console.log({
+    sport_name,
+    event_id,
+    event_name,
+    event_time,
+    istream,
+    iscore,
+    thumb,
+  });
 
-//   if(!sport_name || !event_id || !event_name || !istream || !iscore){
-//     return res.status(400).json({status: false, message: "all field required"})
-//   }
+  //   if(!sport_name || !event_id || !event_name || !istream || !iscore){
+  //     return res.status(400).json({status: false, message: "all field required"})
+  //   }
 
   try {
-    const event = await Events.create({sport_name, event_id, event_name, event_time, istream, iscore,  thumb});
+    const event = await Events.create({
+      sport_name,
+      event_id,
+      event_name,
+      event_time,
+      istream,
+      iscore,
+      thumb,
+    });
 
-    if (!event) return res.status(400).json({ status: false, message: "event not created" });
+    if (!event)
+      return res
+        .status(400)
+        .json({ status: false, message: "event not created" });
 
     return res.status(201).json({ status: true, message: "event created" });
   } catch (error) {
     console.log(error);
 
-    return res.status(201).json({ status: false, message: "event create failed", error });
+    return res
+      .status(201)
+      .json({ status: false, message: "event create failed", error });
   }
 }
 
 // Get All Channels
 async function handleGetAllEvents(req, res) {
   try {
-    const allEvents = await Events.find({});
+    console.log(req.query);
+
+    let query = Events.find();
+    // Sorting Logic
+    if (req.query.sort) {
+      const sortBy = req.query.sort.split(",").join(" ");
+      console.log(sortBy);
+      query = query.sort(sortBy);
+    } else {
+      query = query.sort("event_time");
+    }
+
+    // Pagination Logic
+    const page = req.query.page * 1 || 1;
+    const limit = req.query.limit * 1 || 10;
+    const skip = (page - 1) * limit;
+    query = query.skip(skip).limit(limit);
+
+    const countEvents = await Events.countDocuments();
+    if (req.query.page) {
+      if (skip >= countEvents) {
+        throw new Error("This page is not found");
+      }
+    }
+
+    const allEvents = await query;
 
     return res.status(200).json({
       status: true,
       message: "all events found",
-      total: allEvents.length,
+      total: countEvents,
       allEvents,
     });
   } catch (error) {
-    return res.status(500).json({
+    return res.status(404).json({
       status: false,
-      message: "something happend wrong from server",
-      error,
+      message: error.message,
     });
   }
 }
@@ -204,5 +257,5 @@ module.exports = {
   handleGetEventDetails,
   handleUpdateEvent,
   handleDeleteEvent,
-  handleCreateEvent
+  handleCreateEvent,
 };
