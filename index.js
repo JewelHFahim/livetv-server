@@ -2,7 +2,6 @@ const express = require("express");
 const logger = require("./middlewares/logger")
 require("dotenv").config();
 const cors = require("cors");
-
 const path = require("path");
 const mongoDB = require("./connection");
 const cookieParser = require("cookie-parser");
@@ -15,6 +14,7 @@ const livetvRouter = require("./routes/livetv");
 const tvlinkRouter = require("./routes/tvlink");
 const categoryRouter = require("./routes/category");
 const eventsRouter = require("./routes/eventsRoute");
+const clientRouter = require("./routes/clientRouter");
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -28,8 +28,7 @@ const PORT = process.env.PORT || 8000;
 // Middleware
 app.use(
   cors({
-    // origin: "http://localhost:3000",
-    origin: "https://live-tv-app.netlify.app",
+    origin: ["http://localhost:3000", "https://live-tvs.netlify.app/"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
     allowedHeaders: ["Authorization", "Content-Type"],
@@ -42,23 +41,14 @@ app.use(checkForAuthenticationCookie("token"));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(logger);
 
-// View Engine
-app.set("view engine", "ejs");
-app.set("views", path.resolve("./views"));
 
 app.get("/", (req, res) => {
   return res.send({ status: "Server Running Successfully!" });
 });
 
-app.get("/api", (req, res) => {
-  return res.send({ status: "Welcome Live Tv Server" });
-});
-
-app.get("/test", (req, res) => {
-  return res.render("login");
-});
 
 // routes
+app.use("/api", clientRouter);
 app.use("/api/user", userRouter);
 app.use("/api/admin/category", restricToUser(["editor", "admin"]), categoryRouter);
 app.use("/api/admin/livetv", restricToUser(["editor", "admin"]), livetvRouter);
@@ -69,3 +59,5 @@ app.use("/api/admin", restricToUser(["admin"]), adminRouter);
 app.listen(PORT, () => {
   console.log("Server Running on PORT:", PORT);
 });
+
+module.exports = app;

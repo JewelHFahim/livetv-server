@@ -40,13 +40,12 @@ async function handleGetAllUser(req, res) {
   try {
     const users = await User.find({});
 
-    return res.status(200).json({ status: "success", total: users.length, users });
-
+    return res
+      .status(200)
+      .json({ status: "success", total: users.length, users });
   } catch (error) {
-    return res.status(404).json({status: "failed", message: error.message})
+    return res.status(404).json({ status: "failed", message: error.message });
   }
-
-  
 }
 
 // Login User
@@ -78,6 +77,7 @@ async function handleLoginUser(req, res) {
       .json({ status: "failed", message: "Invalid email or password" });
   }
 }
+
 
 // ADMIN ROUTES
 

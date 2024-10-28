@@ -1,5 +1,5 @@
 const express = require("express");
-const { handleLoginUser, handleLogoutUser, handleGetSingleUser } = require("../controllers/user");
+const { handleLoginUser, handleLogoutUser, handleGetSingleUser, handleGetAllEventsClient } = require("../controllers/user");
 const router = express.Router();
 
 router.post("/login", handleLoginUser);
