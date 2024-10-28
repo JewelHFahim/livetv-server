@@ -1,12 +1,11 @@
 const express = require("express");
-const logger = require("./middlewares/logger")
+const logger = require("./middlewares/logger");
 require("dotenv").config();
 const cors = require("cors");
 const path = require("path");
 const mongoDB = require("./connection");
 const cookieParser = require("cookie-parser");
-const {checkForAuthenticationCookie, restricToUser } = 
-require("./middlewares/authentication");
+const { checkForAuthenticationCookie, restricToUser } = require("./middlewares/authentication");
 
 const userRouter = require("./routes/user");
 const adminRouter = require("./routes/admin");
@@ -17,23 +16,19 @@ const eventsRouter = require("./routes/eventsRoute");
 const clientRouter = require("./routes/clientRouter");
 
 const app = express();
-const PORT = process.env.PORT || 8000;
 
-// Mongodb Connections
-  async function connectDB() {
-    try {
-      // mongoDB("mongodb://127.0.0.1:27017/live-tv")
-      await mongoDB(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.d0tal.mongodb.net/live-tv?retryWrites=true&w=majority&appName=Cluster0`);
-      console.log("MongoDB Connected");
-    } catch (error) {
-      console.error("MongoDB Failed to Connect", error);
-      process.exit(1);
-    }
+async function connectDB() {
+  try {
+    await mongoDB(`mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.d0tal.mongodb.net/live-tv?retryWrites=true&w=majority&appName=Cluster0`);
+    console.log("MongoDB Connected");
+  } catch (error) {
+    console.error("MongoDB Failed to Connect", error);
+    process.exit(1);
   }
-  
-  connectDB();
+}
 
-// Middleware
+connectDB();
+
 app.use(
   cors({
     origin: ["http://localhost:3000", "https://live-tvs.netlify.app/"],
@@ -49,13 +44,11 @@ app.use(checkForAuthenticationCookie("token"));
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(logger);
 
-
 app.get("/", (req, res) => {
   return res.send({ status: "Server Running Successfully!" });
 });
 
-
-// routes
+// Routes
 app.use("/api", clientRouter);
 app.use("/api/user", userRouter);
 app.use("/api/admin/category", restricToUser(["editor", "admin"]), categoryRouter);
@@ -63,9 +56,5 @@ app.use("/api/admin/livetv", restricToUser(["editor", "admin"]), livetvRouter);
 app.use("/api/admin/livetv", restricToUser(["editor", "admin"]), tvlinkRouter);
 app.use("/api/admin/events", restricToUser(["editor", "admin"]), eventsRouter);
 app.use("/api/admin", restricToUser(["admin"]), adminRouter);
-
-app.listen(PORT, () => {
-  console.log("Server Running on PORT:", PORT);
-});
 
 module.exports = app;
